@@ -31,5 +31,36 @@ public class MathApp {
 
         System.out.println("The square root of " + number + " is " + squareRoot);
 
+        System.out.println("__________________________");
+
+        double x1 = 5, y1 = 10;
+        double x2 = 85, y2 = 50;
+
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+        System.out.println("Distance = " + distance);
+
+        System.out.println("__________________________");
+
+        double value = -3.8;
+        double absoluteValue = Math.abs(value);
+
+        System.out.println("Absolute value is " + absoluteValue);
+
+        System.out.println("__________________________");
+
+        double randomValue = Math.random();
+        System.out.println("Random number = " + randomValue);
+
+        System.out.println("__________________________");
+
+        int days = 24;
+        long minutes = (days * 24) * 60;
+        long milliSeconds = (minutes * 60) * 60;
+
+        System.out.println("Total minutes in " + days + " days is " + minutes);
+        System.out.println("Total milliseconds in " + days + " days is " + milliSeconds);
+
+
     }
 }
